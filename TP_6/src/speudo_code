@@ -1,0 +1,14 @@
+debut
+
+ecrire "tableau: charactere hexadicimal decimal "
+nb -> 0
+decimal ->0
+ pour decimal<-33 a 126
+	nb->nb+1
+	si nb=4 alors
+		ecrire ""
+		nb->0
+	finsi
+ ecrire " char(decimal ) + hexa(decimal)+ decimal
+decimal suivant
+fin
